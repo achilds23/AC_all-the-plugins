@@ -38,7 +38,7 @@ static const UART_TerminalItem items[START_MENU_ITEMS] = {
     {"Send command", {""}, 1, SEND_CMD, TEXT_MODE},
     {"Send AT command", {""}, 1, SEND_AT_CMD, TEXT_MODE},
     {"Fast cmd",
-     {"help", "uptime", "date", "df -h", "ps", "dmesg", "reboot", "poweroff"},
+     {"readCount", "clearEEPROM", "date", "df -h", "ps", "dmesg", "reboot", "poweroff"},
      8,
      SEND_FAST_CMD,
      TEXT_MODE},
